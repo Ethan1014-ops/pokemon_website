@@ -5,22 +5,22 @@ const HomePage: React.FC = () => {
     {
       title: "Primera Generación",
       description: "Descubre los 150 Pokémon originales de Kanto que iniciaron esta increíble aventura. Desde Bulbasaur hasta Mew, explora las criaturas que capturaron los corazones de millones de entrenadores alrededor del mundo.",
-      image: "public/first-generation.jpg"
+      image: "/first-generation.jpg"
     },
     {
       title: "Historia",
       description: "Sumérgete en la rica historia del mundo Pokémon, desde sus humildes comienzos en 1996 hasta convertirse en la franquicia de medios más exitosa de todos los tiempos. Conoce cómo Satoshi Tajiri creó este universo fantástico.",
-      image: "/public/history.jpg"
+      image: "/history.jpg"
     },
     {
       title: "Pokémones Iniciales",
       description: "Conoce a Bulbasaur, Charmander y Squirtle, los tres compañeros iniciales que han acompañado a entrenadores novatos en su primera aventura. Cada uno representa un tipo elemental diferente y una personalidad única.",
-      image: "public/collection-pokemon-all-removebg.png"
+      image: "/collection-pokemon-all-removebg.png"
     },
     {
       title: "Legendarios",
       description: "Explora los míticos Pokémon legendarios como Articuno, Zapdos, Moltres, Mew y Mewtwo. Estas criaturas extraordinarias poseen poderes únicos y son consideradas los más raros y poderosos de todos.",
-      image: "public/mythical-creatures-banners-vertical.jpg"
+      image: "/mythical-creatures-banners-vertical.jpg"
     }
   ];
 
