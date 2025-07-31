@@ -5,22 +5,22 @@ const HomePage: React.FC = () => {
     {
       title: "Primera Generación",
       description: "Descubre los 150 Pokémon originales de Kanto que iniciaron esta increíble aventura. Desde Bulbasaur hasta Mew, explora las criaturas que capturaron los corazones de millones de entrenadores alrededor del mundo.",
-      image: "https://images.pexels.com/photos/1851164/pexels-photo-1851164.jpeg"
+      image: "public/first-generation.jpg"
     },
     {
       title: "Historia",
       description: "Sumérgete en la rica historia del mundo Pokémon, desde sus humildes comienzos en 1996 hasta convertirse en la franquicia de medios más exitosa de todos los tiempos. Conoce cómo Satoshi Tajiri creó este universo fantástico.",
-      image: "https://images.pexels.com/photos/163064/play-stone-network-networked-interactive-163064.jpeg"
+      image: "/public/history.jpg"
     },
     {
       title: "Pokémones Iniciales",
       description: "Conoce a Bulbasaur, Charmander y Squirtle, los tres compañeros iniciales que han acompañado a entrenadores novatos en su primera aventura. Cada uno representa un tipo elemental diferente y una personalidad única.",
-      image: "https://images.pexels.com/photos/1851164/pexels-photo-1851164.jpeg"
+      image: "public/collection-pokemon-all-removebg.png"
     },
     {
       title: "Legendarios",
       description: "Explora los míticos Pokémon legendarios como Articuno, Zapdos, Moltres, Mew y Mewtwo. Estas criaturas extraordinarias poseen poderes únicos y son consideradas los más raros y poderosos de todos.",
-      image: "https://images.pexels.com/photos/163064/play-stone-network-networked-interactive-163064.jpeg"
+      image: "public/mythical-creatures-banners-vertical.jpg"
     }
   ];
 
@@ -50,7 +50,7 @@ const HomePage: React.FC = () => {
                     <img
                       src={section.image}
                       alt={section.title}
-                      className="w-full h-64 object-cover rounded-xl shadow-lg hover:shadow-xl transition-shadow"
+                      className="w-full h-64 object-cover bg-[#22bf66] rounded-xl shadow-lg hover:shadow-xl transition-shadow"
                     />
                   </div>
                 </div>

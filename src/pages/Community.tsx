@@ -33,7 +33,7 @@ const Community: React.FC = () => {
       name: 'WhatsApp',
       description: 'Mantente actualizado con las últimas noticias y eventos. Recibe notificaciones directas en tu teléfono.',
       icon: <Users className="w-12 h-12 text-green-600" />,
-      link: 'https://wa.me/1234567890',
+      link: 'https://wa.me/+573024774256?text=Hola, estoy interesado/a',
       color: 'from-green-500 to-green-700',
       features: ['Noticias exclusivas', 'Eventos especiales', 'Alertas de raids', 'Comunidad local']
     },
