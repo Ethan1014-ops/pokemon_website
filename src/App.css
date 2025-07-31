@@ -1,0 +1,81 @@
+.pokemon-bg {
+  background-image: url('https://images.pexels.com/photos/1851164/pexels-photo-1851164.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.pokemon-overlay {
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(2px);
+}
+
+.dropdown-enter {
+  opacity: 0;
+  transform: translateY(-10px);
+}
+
+.dropdown-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.dropdown-exit {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.dropdown-exit-active {
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.pokemon-card {
+  transition: all 0.3s ease;
+  background: linear-gradient(145deg, #ffffff, #f8fafc);
+  cursor: pointer;
+}
+
+.pokemon-card:hover {
+  transform: translateY(-8px) scale(1.05);
+  box-shadow: 0 25px 50px -12px rgba(59, 130, 246, 0.25);
+}
+
+.section-card {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+.section-card:hover {
+  background: rgba(255, 255, 255, 1);
+  transform: translateY(-2px);
+}
+
+.pokemon-detail-modal {
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(8px);
+}
+
+.nav-button {
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.nav-button::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #3B82F6, #EAB308);
+  transition: width 0.3s ease;
+}
+
+.nav-button:hover::after,
+.nav-button.active::after {
+  width: 100%;
+}
